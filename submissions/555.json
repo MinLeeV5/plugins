@@ -1,0 +1,13 @@
+{
+  "issue": 555,
+  "title": "Cypress Pulse",
+  "submittedBy": "mbranicky-doxee",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/mbranicky/cypress-pulse"
+  },
+  "categories": [
+    "sidebar",
+    "utils"
+  ]
+}
