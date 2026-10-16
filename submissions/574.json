@@ -1,0 +1,15 @@
+{
+  "issue": 574,
+  "title": "Resources",
+  "submittedBy": "ZedObaia",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/ZedObaia/paseo-plugins",
+    "ref": "6d992901b73265876dacfc1db708c7aa7a178ccb",
+    "pluginPath": "plugins/resources"
+  },
+  "categories": [
+    "sidebar",
+    "utils"
+  ]
+}
