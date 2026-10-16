@@ -55,7 +55,9 @@ The website lists plugins as new by `publishedAt` and as recently updated by
 `reviewedAt`, so a slow review does not push a new plugin down and a version bump
 does not show as new. `npm run add` and `npm run bump` write UTC timestamps to the
 second, such as `2026-10-12T11:42:00Z`, so same-day listings keep their order.
-Records written before timestamps carry `YYYY-MM-DD` and read as midnight UTC.
+`validate --changed` rejects a date a change writes without the time, and an update
+that changes `submittedAt` or `publishedAt`. Records written before timestamps carry
+`YYYY-MM-DD` and read as midnight UTC.
 
 The published index combines records with metadata from their pinned manifests. See
 [plugin metadata](#plugin-metadata) for fields and override precedence.
@@ -214,6 +216,9 @@ No pending versions means no proposed bodies. Inline diffs are capped at 60,000
 characters; workflows retain the full diff artifact.
 
 `dist/index.json` and `dist/plugins/<owner>/<slug>.json` conform to PROTOCOL.md.
+A record whose pinned source cannot be fetched or resolved is left out of that
+publish and logged as `Skipped <id>: <reason>`; the other plugins still deploy.
+The build fails only when no record resolves.
 `REGISTRY_URL` controls the advertised registry base. `INSTALLS_URL` defaults to
 `https://paseo.sh/api/plugins/installs`; an unavailable counter omits `installs`.
 Counts are advisory install requests, including git artifacts. No npm downloads
