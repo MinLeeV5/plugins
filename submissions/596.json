@@ -1,0 +1,13 @@
+{
+  "issue": 596,
+  "title": "Droid Native",
+  "submittedBy": "sunnypsk",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/sunnypsk/paseo-droid-plugin",
+    "ref": "6617933963f9c688a86e3341a3aa8e87278a8b2c"
+  },
+  "categories": [
+    "providers"
+  ]
+}
