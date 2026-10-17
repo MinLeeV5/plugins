@@ -3,11 +3,10 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/Moyf/paseo-sidechat.git",
-    "commit": "0e2c19f8686b04d635e60bace2221e58d81d17b5"
+    "commit": "0a0095c1ea2de474e8084559ceab461dee08fdc5"
   },
   "repository": {
-    "url": "https://github.com/Moyf/paseo-sidechat",
-    "commit": "0e2c19f8686b04d635e60bace2221e58d81d17b5"
+    "url": "https://github.com/Moyf/paseo-sidechat"
   },
   "categories": [
     "daemon-management",
@@ -17,6 +16,6 @@
   ],
   "submittedAt": "2026-10-17T15:38:23Z",
   "submittedBy": "Moyf",
-  "publishedAt": "2026-10-17T16:32:39Z",
-  "reviewedAt": "2026-10-17T16:32:39Z"
+  "publishedAt": "2026-10-17T17:33:07Z",
+  "reviewedAt": "2026-10-17T17:33:07Z"
 }
