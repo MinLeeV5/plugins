@@ -22,7 +22,6 @@
     "media": [
       "https://raw.githubusercontent.com/lyhu/paseo-plugin-tunnel/b0df77430a93e985eb90b9486f11849456220f3b/images/ingress-list.png",
       "https://raw.githubusercontent.com/lyhu/paseo-plugin-tunnel/b0df77430a93e985eb90b9486f11849456220f3b/images/egress-list.png"
-    ],
-    "description": "Connect HTTP services between your Paseo hosts through an encrypted relay tunnel."
+    ]
   }
 }
