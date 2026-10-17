@@ -1,0 +1,14 @@
+{
+  "issue": 618,
+  "title": "Tasks",
+  "submittedBy": "anh-chu",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/anh-chu/paseo-plugin-tasks"
+  },
+  "categories": [
+    "orchestration",
+    "workspaces",
+    "sidebar"
+  ]
+}
