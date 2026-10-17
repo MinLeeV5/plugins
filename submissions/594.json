@@ -1,0 +1,12 @@
+{
+  "issue": 594,
+  "title": "Paseo Jira",
+  "submittedBy": "tranhuywin",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/tranhuywin/paseo-jira"
+  },
+  "categories": [
+    "workspaces"
+  ]
+}
