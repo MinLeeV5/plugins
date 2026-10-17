@@ -1,0 +1,13 @@
+{
+  "issue": 599,
+  "title": "Antigravity Usage",
+  "submittedBy": "breathi3552",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/breathi3552/paseo-agy-usage"
+  },
+  "categories": [
+    "providers",
+    "utils"
+  ]
+}
