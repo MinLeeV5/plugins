@@ -1,0 +1,15 @@
+{
+  "issue": 605,
+  "title": "Workspace Spaces",
+  "submittedBy": "HiepPP",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/HiepPP/hiep-paseo-plugin",
+    "ref": "main",
+    "pluginPath": "plugins/workspace-spaces"
+  },
+  "categories": [
+    "workspaces",
+    "sidebar"
+  ]
+}
