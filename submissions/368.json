@@ -1,0 +1,14 @@
+{
+  "issue": 368,
+  "title": "File preview",
+  "submittedBy": "gil-pingping",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/gil-pingping/paseo-file-preview",
+    "ref": "v0.1.1"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ]
+}
