@@ -1,0 +1,14 @@
+{
+  "issue": 657,
+  "title": "Quote Notes",
+  "submittedBy": "xzthemeofsss",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/xzthemeofsss/paseo-quote-notes",
+    "ref": "v0.1.0"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ]
+}
