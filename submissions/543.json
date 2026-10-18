@@ -1,0 +1,14 @@
+{
+  "issue": 543,
+  "title": "tapd-workbench",
+  "submittedBy": "CasonMo",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/CasonMo/paseo-tapd"
+  },
+  "categories": [
+    "orchestration",
+    "sidebar",
+    "utils"
+  ]
+}
