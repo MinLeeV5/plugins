@@ -1,0 +1,21 @@
+{
+  "id": "daaaaave/telegram",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/Daaaaave/paseo-telegram.git",
+    "commit": "b57e6f8ec1cf68071db66b66ab4e4ef4f4d8c781"
+  },
+  "repository": {
+    "url": "https://github.com/Daaaaave/paseo-telegram",
+    "commit": "b57e6f8ec1cf68071db66b66ab4e4ef4f4d8c781"
+  },
+  "categories": [
+    "orchestration",
+    "workspaces",
+    "sidebar"
+  ],
+  "submittedAt": "2026-10-18T20:03:36Z",
+  "submittedBy": "Daaaaave",
+  "publishedAt": "2026-10-18T20:32:30Z",
+  "reviewedAt": "2026-10-18T20:32:30Z"
+}
