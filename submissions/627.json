@@ -1,0 +1,14 @@
+{
+  "issue": 627,
+  "title": "Workspace Navigator",
+  "submittedBy": "yeyan00",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/yeyan00/paseo-workspace-navigator",
+    "ref": "v0.2.0"
+  },
+  "categories": [
+    "workspaces",
+    "sidebar"
+  ]
+}
