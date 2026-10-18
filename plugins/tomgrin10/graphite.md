@@ -1,6 +1,6 @@
 Graphite shows the Graphite stack for each workspace and says whether each pull request needs action, is ready to merge, is waiting, or is done. The stack comes from the Graphite CLI in the workspace, and GitHub adds reviews, unresolved threads, checks and mergeability to those branches. It does not infer stacks from pull request base branches.
 
-It appears as a **Graphite PRs** sidebar inbox across active workspaces, a stack button in the workspace header, a composer pill, and a `/pr-stack` command. The plugin offers no branch or pull request actions. **Fix All** creates a separate agent in the workspace, using the provider configuration of the workspace's latest agent, and sends it a prompt to fix the actionable problems in the stack. It needs an agent already opened in that workspace.
+It appears as a **Graphite PRs** sidebar inbox across active workspaces, a stack button in the workspace header, a composer pill, and a `/pr-stack` command. The status views do not directly change branches or pull requests. **Fix All** creates a separate agent in the workspace, using the provider configuration of the workspace's latest agent, and sends it a prompt to fix the actionable problems in the stack. It needs an agent already opened in that workspace. The prompt sends repository and workspace identifiers, branch names, PR titles and failing-check names to that agent’s configured provider. PR titles and check names come from the repository and its contributors; review the agent’s permissions before using Fix All on untrusted contributions.
 
 Setup:
 
