@@ -1,0 +1,22 @@
+{
+  "id": "gv94/open-in-terminal",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/GV94/paseo-open-in-terminal.git",
+    "commit": "501db7c82d4d7e73bb68497ebbedd813384e1bf8",
+    "tag": "v0.1.0"
+  },
+  "repository": {
+    "url": "https://github.com/GV94/paseo-open-in-terminal",
+    "commit": "501db7c82d4d7e73bb68497ebbedd813384e1bf8"
+  },
+  "categories": [
+    "workspaces",
+    "extras",
+    "utils"
+  ],
+  "submittedAt": "2026-10-18T07:48:41Z",
+  "submittedBy": "GV94",
+  "publishedAt": "2026-10-18T08:01:51Z",
+  "reviewedAt": "2026-10-18T08:01:51Z"
+}
