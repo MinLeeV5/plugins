@@ -1,0 +1,14 @@
+{
+  "issue": 652,
+  "title": "Paseo Git Graph",
+  "submittedBy": "SiyXo511",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/SiyXo511/paseo-git-graph",
+    "ref": "3814c7f"
+  },
+  "categories": [
+    "git",
+    "workspaces"
+  ]
+}
