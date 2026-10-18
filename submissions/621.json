@@ -1,0 +1,15 @@
+{
+  "issue": 621,
+  "title": "Paseo Watch Notify",
+  "submittedBy": "romejiang",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/romejiang/paseo-watch-notify",
+    "ref": "main",
+    "pluginPath": "packages/plugin"
+  },
+  "categories": [
+    "extras",
+    "utils"
+  ]
+}
