@@ -1,0 +1,14 @@
+{
+  "issue": 346,
+  "title": "Document viewer",
+  "submittedBy": "no-carve-only-pizza",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/no-carve-only-pizza/paseo-document-viewer",
+    "ref": "v0.3.0"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ]
+}
