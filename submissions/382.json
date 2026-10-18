@@ -1,0 +1,14 @@
+{
+  "issue": 382,
+  "title": "Top",
+  "submittedBy": "omercnet",
+  "source": {
+    "kind": "npm",
+    "package": "@omercnet/paseo-top",
+    "version": "0.1.0"
+  },
+  "categories": [
+    "sidebar",
+    "utils"
+  ]
+}
