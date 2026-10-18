@@ -1,0 +1,13 @@
+{
+  "issue": 337,
+  "title": "Submit plugin: Agent Kit",
+  "submittedBy": "capcdk",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/capcdk/paseo-agent-kit"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ]
+}
