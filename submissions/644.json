@@ -1,0 +1,13 @@
+{
+  "issue": 644,
+  "title": "Switch provider",
+  "submittedBy": "anh-chu",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/anh-chu/paseo-plugin-switch-provider"
+  },
+  "categories": [
+    "providers",
+    "utils"
+  ]
+}
