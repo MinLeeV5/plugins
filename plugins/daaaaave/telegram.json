@@ -1,13 +1,15 @@
 {
   "id": "daaaaave/telegram",
   "artifact": {
-    "kind": "git",
-    "remote": "https://github.com/Daaaaave/paseo-telegram.git",
-    "commit": "b57e6f8ec1cf68071db66b66ab4e4ef4f4d8c781"
+    "kind": "npm",
+    "package": "paseo-telegram",
+    "version": "0.1.1",
+    "resolved": "https://registry.npmjs.org/paseo-telegram/-/paseo-telegram-0.1.1.tgz",
+    "integrity": "sha512-r6An3Iejs7yAW+w0xElhehW7S2UkGKgvT6C6RN3b9hGTfPnfyJgFydHr7yjvzh31/qtOEnrB87mBi8BbgaB+5Q=="
   },
   "repository": {
     "url": "https://github.com/Daaaaave/paseo-telegram",
-    "commit": "b57e6f8ec1cf68071db66b66ab4e4ef4f4d8c781"
+    "commit": "3ab433e0a8d7a8e1ff3700385e1158cf92f9116e"
   },
   "categories": [
     "orchestration",
@@ -16,6 +18,6 @@
   ],
   "submittedAt": "2026-10-18T20:03:36Z",
   "submittedBy": "Daaaaave",
-  "publishedAt": "2026-10-18T20:32:30Z",
-  "reviewedAt": "2026-10-18T20:32:30Z"
+  "publishedAt": "2026-10-18T21:02:58Z",
+  "reviewedAt": "2026-10-18T21:02:58Z"
 }
