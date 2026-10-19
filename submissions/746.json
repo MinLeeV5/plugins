@@ -1,0 +1,14 @@
+{
+  "issue": 746,
+  "title": "Codex LB",
+  "submittedBy": "sm1ee",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/sm1ee/paseo-codex-lb",
+    "ref": "v0.1.0"
+  },
+  "categories": [
+    "sidebar",
+    "utils"
+  ]
+}
