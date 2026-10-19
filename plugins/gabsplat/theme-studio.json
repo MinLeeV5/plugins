@@ -21,11 +21,11 @@
   "listing": {
     "name": "Theme Studio",
     "media": [
-      "https://cdn.jsdelivr.net/npm/paseo-theme-studio@0.7.0/images/studio.png",
-      "https://cdn.jsdelivr.net/npm/paseo-theme-studio@0.7.0/images/packs.png",
-      "https://cdn.jsdelivr.net/npm/paseo-theme-studio@0.7.0/images/design.png",
-      "https://cdn.jsdelivr.net/npm/paseo-theme-studio@0.7.0/images/mobile.png",
-      "https://cdn.jsdelivr.net/npm/paseo-theme-studio@0.7.0/images/component.png"
+      "https://cdn.jsdelivr.net/npm/paseo-theme-studio@0.8.1/images/studio.png",
+      "https://cdn.jsdelivr.net/npm/paseo-theme-studio@0.8.1/images/packs.png",
+      "https://cdn.jsdelivr.net/npm/paseo-theme-studio@0.8.1/images/design.png",
+      "https://cdn.jsdelivr.net/npm/paseo-theme-studio@0.8.1/images/mobile.png",
+      "https://cdn.jsdelivr.net/npm/paseo-theme-studio@0.8.1/images/component.png"
     ]
   }
 }
