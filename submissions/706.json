@@ -1,0 +1,13 @@
+{
+  "issue": 706,
+  "title": "Better Paseo",
+  "submittedBy": "RRD-dev",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/RoundRedDot/better-paseo",
+    "ref": "a48ec5f5238cb8e3d738b9061c6b3bcc44265280"
+  },
+  "categories": [
+    "utils"
+  ]
+}
