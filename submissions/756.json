@@ -1,0 +1,15 @@
+{
+  "issue": 756,
+  "title": "Auto labels",
+  "submittedBy": "sm1ee",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/sm1ee/paseo-auto-label",
+    "ref": "v0.1.1"
+  },
+  "categories": [
+    "workspaces",
+    "sidebar",
+    "utils"
+  ]
+}
