@@ -3,19 +3,19 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/Arkmusn/paseo-plugin-management.git",
-    "commit": "76933559c49e711fac97afeeff23670cf7cf3399"
+    "commit": "1c62ffbafcaf4380cdb14e38d220c7e2784346c5"
   },
   "repository": {
     "url": "https://github.com/Arkmusn/paseo-plugin-management",
-    "commit": "76933559c49e711fac97afeeff23670cf7cf3399"
+    "commit": "1c62ffbafcaf4380cdb14e38d220c7e2784346c5"
   },
   "categories": [
     "daemon-management"
   ],
   "submittedAt": "2026-10-19T10:49:05Z",
   "submittedBy": "Arkmusn",
-  "publishedAt": "2026-10-19T11:10:05Z",
-  "reviewedAt": "2026-10-19T11:10:05Z",
+  "publishedAt": "2026-10-19T12:03:41Z",
+  "reviewedAt": "2026-10-19T12:03:41Z",
   "listing": {
     "name": "Plugin Management"
   }
