@@ -1,0 +1,22 @@
+{
+  "id": "anh-chu/wiki-viewer",
+  "artifact": {
+    "kind": "npm",
+    "package": "paseo-wiki-viewer",
+    "version": "0.1.0",
+    "resolved": "https://registry.npmjs.org/paseo-wiki-viewer/-/paseo-wiki-viewer-0.1.0.tgz",
+    "integrity": "sha512-dQwlnfBZVWEN1KlmvJ5GyAxNpgaQcMDtKnqxcV3fwTbs/4D7Xp1TloYR1HOBbPvnUM5Vm8VxJPbVmDssCi/M6w=="
+  },
+  "repository": {
+    "url": "https://github.com/anh-chu/paseo-wiki-viewer"
+  },
+  "categories": [
+    "workspaces",
+    "sidebar",
+    "utils"
+  ],
+  "submittedAt": "2026-10-19T04:49:09Z",
+  "submittedBy": "anh-chu",
+  "publishedAt": "2026-10-19T05:01:23Z",
+  "reviewedAt": "2026-10-19T05:01:23Z"
+}
