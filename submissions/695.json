@@ -1,0 +1,12 @@
+{
+  "issue": 695,
+  "title": "Update Agent Usage to 0.5.0",
+  "submittedBy": "CasonMo",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/CasonMo/paseo-agent-usage"
+  },
+  "categories": [
+    "utils"
+  ]
+}
