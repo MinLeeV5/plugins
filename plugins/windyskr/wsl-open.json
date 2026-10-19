@@ -16,5 +16,10 @@
   "submittedAt": "2026-10-19T03:30:57Z",
   "submittedBy": "Windyskr",
   "publishedAt": "2026-10-19T03:30:57Z",
-  "reviewedAt": "2026-10-19T03:30:57Z"
+  "reviewedAt": "2026-10-19T03:30:57Z",
+  "listing": {
+    "media": [
+      "https://raw.githubusercontent.com/Windyskr/paseo-wsl-open/df07b28d18ebafdd8c3f8ae2d9499cf726a0a24d/media/open-in-windows.png"
+    ]
+  }
 }
