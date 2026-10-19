@@ -1,0 +1,15 @@
+{
+  "issue": 760,
+  "title": "Lific",
+  "submittedBy": "lardissone",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/lardissone/paseo-lific"
+  },
+  "categories": [
+    "orchestration",
+    "git",
+    "workspaces",
+    "sidebar"
+  ]
+}
