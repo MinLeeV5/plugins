@@ -1,0 +1,13 @@
+{
+  "issue": 675,
+  "title": "Open in Windows (WSL)",
+  "submittedBy": "Windyskr",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/Windyskr/paseo-wsl-open"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ]
+}
