@@ -17,12 +17,5 @@
   "submittedAt": "2026-10-10",
   "submittedBy": "stevecastaneda",
   "publishedAt": "2026-10-10",
-  "reviewedAt": "2026-10-19T21:39:07Z",
-  "listing": {
-    "media": [
-      "https://raw.githubusercontent.com/stevecastaneda/paseo-plugins/6997762ece758cb0abe90d34e1671de1f237039a/playwright-pulse/images/1-panel.png",
-      "https://raw.githubusercontent.com/stevecastaneda/paseo-plugins/6997762ece758cb0abe90d34e1671de1f237039a/playwright-pulse/images/2-folders.png",
-      "https://raw.githubusercontent.com/stevecastaneda/paseo-plugins/6997762ece758cb0abe90d34e1671de1f237039a/playwright-pulse/images/3-slowest.png"
-    ]
-  }
+  "reviewedAt": "2026-10-19T22:32:49Z"
 }
