@@ -1,0 +1,13 @@
+{
+  "issue": 763,
+  "title": "PDF viewer",
+  "submittedBy": "tlamadon",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/tlamadon/paseo-pdf-viewer"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ]
+}
