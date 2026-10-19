@@ -1,0 +1,12 @@
+{
+  "issue": 715,
+  "title": "Thinking-translate",
+  "submittedBy": "walavave",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/walavave/paseo-thinking-translate"
+  },
+  "categories": [
+    "utils"
+  ]
+}
