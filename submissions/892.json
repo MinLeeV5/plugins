@@ -1,0 +1,15 @@
+{
+  "issue": 892,
+  "title": "tech-bought-my-soul",
+  "submittedBy": "5carl",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/5carl/tech-bought-my-soul",
+    "ref": "b4f95d3",
+    "pluginPath": "paseo"
+  },
+  "categories": [
+    "extras",
+    "utils"
+  ]
+}
