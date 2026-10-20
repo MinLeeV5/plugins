@@ -216,13 +216,29 @@ for (const kind of ["npm", "git"] as const) {
       await assert.rejects(f.detail(), AuthorError);
     });
   }
-  for (const tag of ["en", "zh-cn", "not a tag"]) {
-    test(`${kind}: independently discovered overview rejects locale ${tag}`, async (t) => {
-      const f = fixture(t, kind, {}, undefined, { [`OVERVIEW.${tag}.md`]: "Content" });
-      await assert.rejects(f.validate(), /canonical language tag/);
-      await assert.rejects(f.detail(), /canonical language tag/);
+  for (const filename of ["OVERVIEW.backup.md", "OVERVIEW.notes.md", "OVERVIEW.not a tag.md", "OVERVIEW.zh-cn.md", "OVERVIEW.en.md", "README.zh-CN.md"]) {
+    test(`${kind}: auxiliary overview ${filename} is ignored`, async (t) => {
+      const f = fixture(t, kind, {}, undefined, { [filename]: "Auxiliary content" });
+      const detail = await f.detail();
+      assert.equal(detail.readme, "A theme for focused work.");
+      assert.equal(detail.overviewTranslations, undefined);
+      assert.deepEqual(await f.validate(), []);
     });
   }
+
+  test(`${kind}: overview discovery loads canonical 2/3-letter language codes`, async (t) => {
+    const f = fixture(t, kind, {}, undefined, {
+      "OVERVIEW.zh-CN.md": "中文概述", "OVERVIEW.fr.md": "Présentation",
+      "OVERVIEW.ast.md": "Resume n'asturianu",
+    });
+    const detail = await f.detail();
+    assert.equal(detail.readme, "A theme for focused work.");
+    assert.deepEqual(detail.overviewTranslations, {
+      "zh-CN": "中文概述", fr: "Présentation", ast: "Resume n'asturianu",
+    });
+    assert.equal(detail.translations, undefined);
+    assert.deepEqual(await f.validate(), []);
+  });
 }
 
 for (const kind of ["npm", "git"] as const) {

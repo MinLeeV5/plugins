@@ -63,9 +63,6 @@ scripts that would execute; do not execute them yourself. Build commands must ha
 understandable purpose and operate on the reviewed inputs.
 
 Every published listing needs an accurate overview and a one-sentence description.
-For new submissions, the default listing text and overview must be English.
-Reviewers can supply missing English text through the existing listing overrides
-and registry overview; do not require a new artifact solely for these edits.
 Visual plugins need suitable media, as described below. The reviewer can supply or correct these in the registry PR.
 
 Run the registry validator against the completed proposal. A validator failure is evidence
@@ -177,18 +174,17 @@ for its format. An imperfect supplied overview is editorial work, not an automat
 
 ### Translated listings
 
-Review each supplied translation for the same accuracy, content and asset
-requirements as English. Authors supply canonical language tags in manifest
-`translations` and adjacent `OVERVIEW.<locale>.md` files. Translations come from
-the same reviewed Git commit or npm tarball; do not substitute repository HEAD.
-English default fields stay required for publication and old consumers.
+Newly listed plugins need English default names, descriptions and overviews.
+Check this during review; the validator does not detect language. Existing
+listings keep their default text, including non-English text. Translations are
+optional.
 
-Use `listing.translations.<locale>.name` or `.description` for field-level
-registry corrections. When an author overview for that language is absent, write
-`plugins/<owner>/<slug>.<locale>.md`; author content wins per language. A missing
-translation is allowed and falls back to English. Review translated documents
-as whole pages, including linked media; automated validation does not determine
-translation quality. See [authoring and override examples](README.md#listing-translations).
+Review each supplied translation and its linked assets under the same content
+requirements as English. Read `translations` and `OVERVIEW.<locale>.md` from the
+reviewed artifact. Use `listing.translations` to correct individual fields and
+`plugins/<owner>/<slug>.<locale>.md` to fill an overview missing from that language.
+Author overviews take precedence per language. See
+[authoring and override examples](README.md#listing-translations).
 
 ## Outcomes and communication
 

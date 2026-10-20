@@ -284,5 +284,6 @@ test("localized Git build preserves v1 defaults and selects changes to reviewer 
   assert.equal(checked.status, 0, checked.stderr);
   assert.match(checked.stdout, /1 record\(s\) match/);
   writeFileSync(f.recordPath.replace(/\.json$/, ".zh-cn.md"), "Invalid locale");
-  assert.notEqual(f.cli("validate").status, 0);
+  const auxiliary = f.cli("validate");
+  assert.equal(auxiliary.status, 0, auxiliary.stderr);
 });

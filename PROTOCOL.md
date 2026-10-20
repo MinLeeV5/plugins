@@ -296,17 +296,19 @@ image entry, even when a video comes first. Dates use ISO 8601.
 
 ## Listing translations
 
-V1 adds optional `translations` to index entries and detail documents:
-`Record<locale, { name?: string; description?: string }>`. Detail documents alone
-may include `overviewTranslations: Record<locale, string>` containing Markdown.
-Top-level `name`, `description`, and detail `readme` remain English strings.
-Language tags are canonical (`zh-CN`, for example); English uses the default
-fields. A missing name or description falls back independently to its default;
-a missing overview falls back to the whole English `readme` document.
+Both translation fields are optional additions to schema v1:
 
-For a reviewed artifact with English defaults, Chinese metadata, and
-`OVERVIEW.zh-CN.md`, the generated index contains an entry like this (unchanged
-fields abbreviated for clarity):
+| Field | Documents | Value |
+| --- | --- | --- |
+| `translations` | Index entries and detail | `Record<locale, { name?: string; description?: string }>` |
+| `overviewTranslations` | Detail only | `Record<locale, string>` with Markdown bodies |
+
+Use canonical language tags such as `zh-CN`; English uses the default fields.
+A missing name or description falls back individually to `name` or `description`.
+A missing overview falls back to the whole `readme` document. Existing listings
+keep their original default text.
+
+Index excerpt, with unchanged fields omitted:
 
 ```json
 {
@@ -322,7 +324,7 @@ fields abbreviated for clarity):
 }
 ```
 
-The detail document retains all existing entry fields and adds the bodies:
+Detail excerpt:
 
 ```json
 {
@@ -337,10 +339,9 @@ The detail document retains all existing entry fields and adds the bodies:
 }
 ```
 
-Overview bodies never appear in the index. Clients that ignore unknown fields
-continue to read English. Clients supporting translations must accept old
-entries without these optional maps. Localizing a listing does not change its
-ID, categories, artifact pin, or install command.
+Clients that ignore unknown fields continue to read the default text. Clients
+supporting translations must accept entries without either map. The existing
+fields, schema version, plugin ID, categories and artifact pin are unchanged.
 
 ## Artifact pins
 

@@ -69,8 +69,18 @@ export function overviewTranslationFiles(
       (path) =>
         path !== `${stem}.md` && path.startsWith(prefix) && path.endsWith(".md")
     )
-    .map((path) => ({
-      locale: requireTranslationLocale(path.slice(prefix.length, -3)),
-      path,
-    }));
+    .flatMap((path) => {
+      const locale = path.slice(prefix.length, -3);
+      // Auxiliary names such as backup and notes are syntactically valid BCP 47
+      // language subtags. The filename convention uses 2/3-letter language codes.
+      if (!/^[a-z]{2,3}(?:-[A-Za-z0-9]+)*$/.test(locale) || locale === "en")
+        return [];
+      try {
+        return Intl.getCanonicalLocales(locale)[0] === locale
+          ? [{ locale, path }]
+          : [];
+      } catch {
+        return [];
+      }
+    });
 }

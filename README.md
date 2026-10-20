@@ -172,13 +172,7 @@ what the plugin does, following [the review policy](REVIEW.md#content).
 
 ## Listing translations
 
-New submissions need English default listing text and an English overview. Reviewers
-can complete missing English text in the registry; existing listings are not
-rewritten or automatically language-detected. Keep the English npm package
-`description` aligned with the manifest description: npm listings still use the
-package description, while Git listings use the manifest description.
-
-Authors can add optional translated fields to `paseo-plugin.json`:
+Add translated names and descriptions to `paseo-plugin.json`:
 
 ```json
 {
@@ -186,28 +180,28 @@ Authors can add optional translated fields to `paseo-plugin.json`:
   "name": "Example",
   "description": "Keep notes alongside your workspace.",
   "translations": {
-    "zh-CN": { "name": "示例", "description": "在工作区旁记录笔记。" },
-    "fr": { "name": "Exemple" }
+    "zh-CN": { "name": "示例", "description": "在工作区旁记录笔记。" }
   }
 }
 ```
 
-Keys must be canonical language tags, such as `zh-CN`, `fr`, or `pt-BR`.
-`zh-cn`, invalid tags, and `en` are rejected; English belongs in the default fields.
-Each entry accepts only optional nonempty `name` and `description` strings.
-Missing fields fall back independently to the English fields in consumers.
-The format permits future languages without a registry schema change.
+Each locale accepts optional, nonempty `name` and `description` strings. Missing
+fields fall back individually to the default fields. Use canonical language tags
+such as `zh-CN`, `fr`, or `pt-BR`; `zh-cn`, invalid tags, `en`, and unknown fields
+are rejected. English belongs in the default fields. For npm, keep the package
+`description` aligned with the manifest description, since the registry uses the
+package description for npm and the manifest description for Git.
 
-Ship `OVERVIEW.zh-CN.md` beside English `OVERVIEW.md` and the manifest. All
-`OVERVIEW.<locale>.md` files are discovered, even without a corresponding metadata
-entry. For npm, include them in the package's `files` list at the package root.
-For Git monorepos they belong under `artifact.pluginPath` at the reviewed commit.
-The registry reads only that commit or the integrity-verified pinned tarball,
-never the current repository HEAD or npm latest version. Markdown and embedded
-asset references retain the same handling as English; review each translated
-page and its assets before approval.
+Ship `OVERVIEW.zh-CN.md` beside `OVERVIEW.md` and the manifest. For npm, include
+these files at the package root in the package's `files` list. For Git monorepos,
+put them under `artifact.pluginPath`. Automatic discovery accepts canonical tags
+with two- or three-letter language codes, such as `OVERVIEW.zh-CN.md`,
+`OVERVIEW.fr.md`, or `OVERVIEW.ast.md`, including languages without translated
+metadata. Auxiliary files such as `OVERVIEW.backup.md`, noncanonical filenames
+such as `OVERVIEW.zh-cn.md`, and `OVERVIEW.en.md` are ignored. English uses
+`OVERVIEW.md`. A missing translated overview falls back to the whole default overview.
 
-Reviewers override fields using the existing record's `listing.translations`:
+Reviewers override individual fields through the registry record:
 
 ```json
 {
@@ -217,21 +211,17 @@ Reviewers override fields using the existing record's `listing.translations`:
 }
 ```
 
-This replaces the Chinese name, preserving the author's Chinese description and
-other languages. Reviewers can supply `plugins/<owner>/<slug>.zh-CN.md` when the
-artifact lacks that language's overview. The author's overview wins separately
-for each language; a registry copy never overrides author content. Missing
-translated overviews fall back as a whole document to English in consumers.
-Localized overview files use the same confinement and regular-file checks as
-English. Redundant reviewer translations can be removed when the author ships
-them; the bump workflow automatically removes only the English fallback today.
+This replaces the Chinese name and keeps the author's Chinese description.
+`plugins/<owner>/<slug>.zh-CN.md` supplies the reviewer overview when the artifact
+has no overview for that language. Author content wins per language. Remove
+redundant reviewer translations when the author ships them; automatic bump cleanup
+currently removes only the English fallback.
 
-Published index and detail entries include optional `translations`; only detail
-entries include optional `overviewTranslations`, keyed by locale with Markdown
-bodies as values. English `name`, `description`, and `readme` keep their existing
-meaning, installation identity stays unchanged, and `schemaVersion` remains 1.
-Records without translations produce the same document shape as before. See
-[the wire example](PROTOCOL.md#listing-translations).
+Translations are optional. Newly listed plugins require English defaults under
+[the review policy](REVIEW.md#translated-listings). Reviewers check the language;
+existing non-English listings keep their default text.
+See [the published fields and JSON examples](PROTOCOL.md#listing-translations)
+for the client contract.
 
 ## Maintainers
 
