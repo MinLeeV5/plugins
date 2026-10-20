@@ -1,0 +1,15 @@
+{
+  "issue": 800,
+  "title": "Update session-recovery to v0.4.0",
+  "submittedBy": "sm1ee",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/sm1ee/paseo-session-recovery",
+    "ref": "v0.4.0"
+  },
+  "categories": [
+    "daemon-management",
+    "orchestration",
+    "utils"
+  ]
+}
