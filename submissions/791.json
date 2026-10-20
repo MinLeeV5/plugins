@@ -1,0 +1,12 @@
+{
+  "issue": 791,
+  "title": "paseo-plugin-zcode",
+  "submittedBy": "lianxin255",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/lianxin255/paseo-plugin-zcode"
+  },
+  "categories": [
+    "providers"
+  ]
+}
