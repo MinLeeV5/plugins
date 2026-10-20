@@ -1,0 +1,12 @@
+{
+  "issue": 850,
+  "title": "Claude Look",
+  "submittedBy": "glyphloom",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/glyphloom/claude-look"
+  },
+  "categories": [
+    "extras"
+  ]
+}
