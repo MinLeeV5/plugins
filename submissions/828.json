@@ -1,0 +1,15 @@
+{
+  "issue": 828,
+  "title": "Next prompt panel",
+  "submittedBy": "HiepPP",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/HiepPP/hiep-paseo-plugin",
+    "ref": "1e1d29f159064d5cbfe9db583319378127bb3b58",
+    "pluginPath": "plugins/next-prompt-panel"
+  },
+  "categories": [
+    "orchestration",
+    "utils"
+  ]
+}
