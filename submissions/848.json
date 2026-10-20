@@ -1,0 +1,13 @@
+{
+  "issue": 848,
+  "title": "Status",
+  "submittedBy": "jtomaszewski",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/fullstackhouse/paseo-status"
+  },
+  "categories": [
+    "orchestration",
+    "workspaces"
+  ]
+}
