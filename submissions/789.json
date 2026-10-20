@@ -1,0 +1,12 @@
+{
+  "issue": 789,
+  "title": "Plan to Auto",
+  "submittedBy": "j0rdsta",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/j0rdsta/paseo-plan-auto"
+  },
+  "categories": [
+    "orchestration"
+  ]
+}
