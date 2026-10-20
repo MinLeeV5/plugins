@@ -111,9 +111,10 @@ Every migration-written registry overview ends exactly with this italic credit.
 
 Author-owned artifact overviews never receive this credit.
 
-Publication validation requires an author or registry overview and rejects `paseo plugin add`, `npm install`, and
-`npm i` in both author overviews and registry overviews. The rest of the content
-contract is reviewed by a person.
+Publication validation requires an author or registry overview and checks file
+confinement and npm integrity. Content, embedded asset suitability, and omission
+of installation commands are checked by the reviewer under [REVIEW.md](REVIEW.md).
+These checks apply equally to English and translated overviews.
 
 The detail document keeps its existing `readme` field. It publishes the pinned
 author `OVERVIEW.md`, or the registry overview when author content is absent.
@@ -168,6 +169,69 @@ Categories describe where a plugin is listed. Selecting **Themes** does not
 identify the plugin as a theme or trigger a screenshot requirement in the
 submission bot. The PR reviewer determines which screenshots are needed from
 what the plugin does, following [the review policy](REVIEW.md#content).
+
+## Listing translations
+
+New submissions need English default listing text and an English overview. Reviewers
+can complete missing English text in the registry; existing listings are not
+rewritten or automatically language-detected. Keep the English npm package
+`description` aligned with the manifest description: npm listings still use the
+package description, while Git listings use the manifest description.
+
+Authors can add optional translated fields to `paseo-plugin.json`:
+
+```json
+{
+  "id": "example",
+  "name": "Example",
+  "description": "Keep notes alongside your workspace.",
+  "translations": {
+    "zh-CN": { "name": "示例", "description": "在工作区旁记录笔记。" },
+    "fr": { "name": "Exemple" }
+  }
+}
+```
+
+Keys must be canonical language tags, such as `zh-CN`, `fr`, or `pt-BR`.
+`zh-cn`, invalid tags, and `en` are rejected; English belongs in the default fields.
+Each entry accepts only optional nonempty `name` and `description` strings.
+Missing fields fall back independently to the English fields in consumers.
+The format permits future languages without a registry schema change.
+
+Ship `OVERVIEW.zh-CN.md` beside English `OVERVIEW.md` and the manifest. All
+`OVERVIEW.<locale>.md` files are discovered, even without a corresponding metadata
+entry. For npm, include them in the package's `files` list at the package root.
+For Git monorepos they belong under `artifact.pluginPath` at the reviewed commit.
+The registry reads only that commit or the integrity-verified pinned tarball,
+never the current repository HEAD or npm latest version. Markdown and embedded
+asset references retain the same handling as English; review each translated
+page and its assets before approval.
+
+Reviewers override fields using the existing record's `listing.translations`:
+
+```json
+{
+  "listing": {
+    "translations": { "zh-CN": { "name": "审阅名称" } }
+  }
+}
+```
+
+This replaces the Chinese name, preserving the author's Chinese description and
+other languages. Reviewers can supply `plugins/<owner>/<slug>.zh-CN.md` when the
+artifact lacks that language's overview. The author's overview wins separately
+for each language; a registry copy never overrides author content. Missing
+translated overviews fall back as a whole document to English in consumers.
+Localized overview files use the same confinement and regular-file checks as
+English. Redundant reviewer translations can be removed when the author ships
+them; the bump workflow automatically removes only the English fallback today.
+
+Published index and detail entries include optional `translations`; only detail
+entries include optional `overviewTranslations`, keyed by locale with Markdown
+bodies as values. English `name`, `description`, and `readme` keep their existing
+meaning, installation identity stays unchanged, and `schemaVersion` remains 1.
+Records without translations produce the same document shape as before. See
+[the wire example](PROTOCOL.md#listing-translations).
 
 ## Maintainers
 

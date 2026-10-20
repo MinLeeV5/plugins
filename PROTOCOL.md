@@ -294,6 +294,54 @@ Optional fields: `license` (string), `author.name`, `author.npm`,
 `webm` (case-insensitive). Keep their display order; the card thumbnail is the first
 image entry, even when a video comes first. Dates use ISO 8601.
 
+## Listing translations
+
+V1 adds optional `translations` to index entries and detail documents:
+`Record<locale, { name?: string; description?: string }>`. Detail documents alone
+may include `overviewTranslations: Record<locale, string>` containing Markdown.
+Top-level `name`, `description`, and detail `readme` remain English strings.
+Language tags are canonical (`zh-CN`, for example); English uses the default
+fields. A missing name or description falls back independently to its default;
+a missing overview falls back to the whole English `readme` document.
+
+For a reviewed artifact with English defaults, Chinese metadata, and
+`OVERVIEW.zh-CN.md`, the generated index contains an entry like this (unchanged
+fields abbreviated for clarity):
+
+```json
+{
+  "schemaVersion": 1,
+  "plugins": [{
+    "id": "acme/example",
+    "name": "Example",
+    "description": "Keep notes alongside your workspace.",
+    "translations": {
+      "zh-CN": { "name": "示例", "description": "在工作区旁记录笔记。" }
+    }
+  }]
+}
+```
+
+The detail document retains all existing entry fields and adds the bodies:
+
+```json
+{
+  "id": "acme/example",
+  "name": "Example",
+  "description": "Keep notes alongside your workspace.",
+  "translations": {
+    "zh-CN": { "name": "示例", "description": "在工作区旁记录笔记。" }
+  },
+  "readme": "Keep notes alongside your workspace.\n",
+  "overviewTranslations": { "zh-CN": "在工作区旁记录笔记。\n" }
+}
+```
+
+Overview bodies never appear in the index. Clients that ignore unknown fields
+continue to read English. Clients supporting translations must accept old
+entries without these optional maps. Localizing a listing does not change its
+ID, categories, artifact pin, or install command.
+
 ## Artifact pins
 
 Install only `artifact`, never derive an install source from `repository` or README.

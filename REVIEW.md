@@ -62,8 +62,11 @@ and development-only dependencies do not create an installation requirement. Rea
 scripts that would execute; do not execute them yourself. Build commands must have an
 understandable purpose and operate on the reviewed inputs.
 
-Every published listing needs an accurate overview and a one-sentence description. Visual plugins need suitable media,
-as described below. The reviewer can supply or correct these in the registry PR.
+Every published listing needs an accurate overview and a one-sentence description.
+For new submissions, the default listing text and overview must be English.
+Reviewers can supply missing English text through the existing listing overrides
+and registry overview; do not require a new artifact solely for these edits.
+Visual plugins need suitable media, as described below. The reviewer can supply or correct these in the registry PR.
 
 Run the registry validator against the completed proposal. A validator failure is evidence
 to understand, not an instruction to pass its diagnostics to an author. Distinguish an
@@ -171,6 +174,21 @@ their own in the next release. Explain that it is written for the listing page, 
 is already shown. Link to the
 [publishing guide's overview guidance](https://paseo.sh/docs/plugins/publishing#your-listing-page)
 for its format. An imperfect supplied overview is editorial work, not an automatic rejection.
+
+### Translated listings
+
+Review each supplied translation for the same accuracy, content and asset
+requirements as English. Authors supply canonical language tags in manifest
+`translations` and adjacent `OVERVIEW.<locale>.md` files. Translations come from
+the same reviewed Git commit or npm tarball; do not substitute repository HEAD.
+English default fields stay required for publication and old consumers.
+
+Use `listing.translations.<locale>.name` or `.description` for field-level
+registry corrections. When an author overview for that language is absent, write
+`plugins/<owner>/<slug>.<locale>.md`; author content wins per language. A missing
+translation is allowed and falls back to English. Review translated documents
+as whole pages, including linked media; automated validation does not determine
+translation quality. See [authoring and override examples](README.md#listing-translations).
 
 ## Outcomes and communication
 
