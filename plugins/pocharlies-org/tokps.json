@@ -16,5 +16,13 @@
   "submittedAt": "2026-10-18T06:34:19Z",
   "submittedBy": "pocharlies",
   "publishedAt": "2026-10-18T06:34:19Z",
-  "reviewedAt": "2026-10-18T06:34:19Z"
+  "reviewedAt": "2026-10-18T06:34:19Z",
+  "listing": {
+    "name": "Tokens per second",
+    "translations": {
+      "es": {
+        "name": "Tokens por segundo"
+      }
+    }
+  }
 }
