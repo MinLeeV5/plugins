@@ -1,0 +1,13 @@
+{
+  "issue": 946,
+  "title": "paseo-bytheway",
+  "submittedBy": "CasonMo",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/CasonMo/paseo-bytheway"
+  },
+  "categories": [
+    "sidebar",
+    "utils"
+  ]
+}
