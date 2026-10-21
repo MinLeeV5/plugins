@@ -1,0 +1,14 @@
+{
+  "issue": 917,
+  "title": "Paseo Accounts",
+  "submittedBy": "jgreys",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/jgreys/paseo-accounts",
+    "ref": "v1.0.3"
+  },
+  "categories": [
+    "providers",
+    "sidebar"
+  ]
+}
