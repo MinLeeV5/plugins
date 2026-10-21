@@ -16,5 +16,10 @@
   "submittedAt": "2026-10-21T08:32:31Z",
   "submittedBy": "zzeitt",
   "publishedAt": "2026-10-21T08:32:31Z",
-  "reviewedAt": "2026-10-21T08:32:31Z"
+  "reviewedAt": "2026-10-21T10:08:00Z",
+  "listing": {
+    "media": [
+      "https://raw.githubusercontent.com/zzeitt/paseo-git-status/5622ae0599230fdd96c95a5943ed5d1420a551f3/assets/screenshot.png"
+    ]
+  }
 }
