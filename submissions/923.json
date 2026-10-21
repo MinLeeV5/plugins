@@ -1,0 +1,15 @@
+{
+  "issue": 923,
+  "title": "Context Compact",
+  "submittedBy": "sbhas2k",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/sbhas2k/paseo-plugins",
+    "ref": "f433cbe",
+    "pluginPath": "context-compact"
+  },
+  "categories": [
+    "providers",
+    "utils"
+  ]
+}
