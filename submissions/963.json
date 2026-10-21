@@ -1,0 +1,14 @@
+{
+  "issue": 963,
+  "title": "Claude Code updates",
+  "submittedBy": "tomcrawf90",
+  "source": {
+    "kind": "npm",
+    "package": "paseo-plugin-claude-update",
+    "version": "0.2.1"
+  },
+  "categories": [
+    "daemon-management",
+    "sidebar"
+  ]
+}
