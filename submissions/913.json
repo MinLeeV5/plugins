@@ -1,0 +1,15 @@
+{
+  "issue": 913,
+  "title": "Paseo Essentials",
+  "submittedBy": "KiritoKing",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/KiritoKing/paseo-plugins",
+    "ref": "49521113707d200cad826a7361361f2221222bd6",
+    "pluginPath": "packages/paseo-ux"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ]
+}
