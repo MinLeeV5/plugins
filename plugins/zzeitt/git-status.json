@@ -1,0 +1,20 @@
+{
+  "id": "zzeitt/git-status",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/zzeitt/paseo-git-status.git",
+    "commit": "939f57316989ce056f68ae6d4d9bd8c9c5be9f26"
+  },
+  "repository": {
+    "url": "https://github.com/zzeitt/paseo-git-status",
+    "commit": "939f57316989ce056f68ae6d4d9bd8c9c5be9f26"
+  },
+  "categories": [
+    "git",
+    "workspaces"
+  ],
+  "submittedAt": "2026-10-21T08:32:31Z",
+  "submittedBy": "zzeitt",
+  "publishedAt": "2026-10-21T08:32:31Z",
+  "reviewedAt": "2026-10-21T08:32:31Z"
+}
