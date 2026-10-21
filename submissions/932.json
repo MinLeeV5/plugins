@@ -1,0 +1,13 @@
+{
+  "issue": 932,
+  "title": "Submit plugin: paseo-git-status",
+  "submittedBy": "zzeitt",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/zzeitt/paseo-git-status"
+  },
+  "categories": [
+    "git",
+    "workspaces"
+  ]
+}
