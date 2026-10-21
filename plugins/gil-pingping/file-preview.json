@@ -16,6 +16,12 @@
   ],
   "submittedAt": "2026-10-18T06:31:18Z",
   "submittedBy": "gil-pingping",
-  "publishedAt": "2026-10-18T06:31:18Z",
-  "reviewedAt": "2026-10-18T06:31:18Z"
+  "publishedAt": "2026-10-21T04:34:15Z",
+  "reviewedAt": "2026-10-21T04:34:15Z",
+  "listing": {
+    "media": [
+      "https://raw.githubusercontent.com/gil-pingping/paseo-file-preview/51254242599069e16319788fd8ddf6a9d2b3f811/docs/screenshots/preview-panel.png",
+      "https://raw.githubusercontent.com/gil-pingping/paseo-file-preview/51254242599069e16319788fd8ddf6a9d2b3f811/docs/screenshots/pdf-viewer.png"
+    ]
+  }
 }
