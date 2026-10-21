@@ -17,6 +17,11 @@
   ],
   "submittedAt": "2026-10-18T07:48:41Z",
   "submittedBy": "GV94",
-  "publishedAt": "2026-10-18T08:01:51Z",
-  "reviewedAt": "2026-10-18T08:01:51Z"
+  "publishedAt": "2026-10-21T22:00:09Z",
+  "reviewedAt": "2026-10-21T22:00:09Z",
+  "listing": {
+    "media": [
+      "https://raw.githubusercontent.com/GV94/paseo-open-in-terminal/d67aaed4c58ca1a613bb3d2e7396c9a0d6f9415d/assets/settings.png"
+    ]
+  }
 }
