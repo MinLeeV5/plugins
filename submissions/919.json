@@ -1,0 +1,15 @@
+{
+  "issue": 919,
+  "title": "Cache Meter",
+  "submittedBy": "sbhas2k",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/sbhas2k/paseo-plugins",
+    "ref": "f433cbe",
+    "pluginPath": "cache-meter"
+  },
+  "categories": [
+    "extras",
+    "utils"
+  ]
+}
