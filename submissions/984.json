@@ -1,0 +1,13 @@
+{
+  "issue": 984,
+  "title": "Cachebeat pill",
+  "submittedBy": "engineers-bb",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/onggiabayluon/paseo-cachebeat-pill"
+  },
+  "categories": [
+    "extras",
+    "utils"
+  ]
+}
