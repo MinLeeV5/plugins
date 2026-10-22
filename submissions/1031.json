@@ -1,0 +1,12 @@
+{
+  "issue": 1031,
+  "title": "Video panel",
+  "submittedBy": "ortschun",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/ortschun/paseo-video-panel"
+  },
+  "categories": [
+    "utils"
+  ]
+}
