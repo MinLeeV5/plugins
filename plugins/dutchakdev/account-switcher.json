@@ -19,5 +19,9 @@
       "https://raw.githubusercontent.com/dutchakdev/paseo-plugin-account-switcher/1ad84192c6d4ffcbbd59a4c3e0d59025b0801c97/docs/assets/accounts.png",
       "https://raw.githubusercontent.com/dutchakdev/paseo-plugin-account-switcher/1ad84192c6d4ffcbbd59a4c3e0d59025b0801c97/docs/assets/account-dialog.png"
     ]
+  },
+  "repository": {
+    "url": "https://github.com/dutchakdev/paseo-plugin-account-switcher",
+    "commit": "3aea532c8306b00f4a6a57759a527564ba997762"
   }
 }
