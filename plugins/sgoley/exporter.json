@@ -15,6 +15,11 @@
   ],
   "submittedAt": "2026-10-22T14:34:01Z",
   "submittedBy": "sgoley",
-  "publishedAt": "2026-10-22T15:01:49Z",
-  "reviewedAt": "2026-10-22T15:01:49Z"
+  "publishedAt": "2026-10-22T20:32:21Z",
+  "reviewedAt": "2026-10-22T20:32:21Z",
+  "listing": {
+    "media": [
+      "https://raw.githubusercontent.com/sgoley/paseo-exporter/58a2b5645bc2177118760c9c2aba5c956c89861a/docs/images/export-panel.png"
+    ]
+  }
 }
