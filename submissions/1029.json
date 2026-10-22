@@ -1,0 +1,12 @@
+{
+  "issue": 1029,
+  "title": "CSV Viewer",
+  "submittedBy": "hoon0422",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/hoon0422/paseo-csv-viewer"
+  },
+  "categories": [
+    "utils"
+  ]
+}
