@@ -3,12 +3,13 @@
   "artifact": {
     "kind": "npm",
     "package": "paseo-cross-daemon",
-    "version": "0.2.0",
-    "resolved": "https://registry.npmjs.org/paseo-cross-daemon/-/paseo-cross-daemon-0.2.0.tgz",
-    "integrity": "sha512-GpUr6i+6KdWHteav01E7HzeK0wDud53bn5rQpvh7D7X1D+94iGJOcE1d8W16ro5F2NRPG4wr/ImhiAAEFErpuw=="
+    "version": "0.6.0",
+    "resolved": "https://registry.npmjs.org/paseo-cross-daemon/-/paseo-cross-daemon-0.6.0.tgz",
+    "integrity": "sha512-918VBLlMMUaRW/S1c/UCxCGZM/kA/yoULvR/w1+3mEE41RvrMisEIhEuDA7aqklDgBFDTMdNYDdD72JQFQAFXg=="
   },
   "repository": {
-    "url": "https://github.com/maxwell-01/maxs-paseo-plugins/tree/HEAD/cross-daemon"
+    "url": "https://github.com/maxwell-01/maxs-paseo-plugins/tree/HEAD/cross-daemon",
+    "commit": "d1b10880435016d0ba26e86cf7e07eb7814fa993"
   },
   "categories": [
     "orchestration"
@@ -16,7 +17,7 @@
   "submittedAt": "2026-09-27",
   "submittedBy": "maxwell-01",
   "publishedAt": "2026-09-27",
-  "reviewedAt": "2026-09-27",
+  "reviewedAt": "2026-10-22T10:18:50Z",
   "listing": {
     "media": []
   }
