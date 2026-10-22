@@ -1,0 +1,16 @@
+{
+  "issue": 1014,
+  "title": "Linear",
+  "submittedBy": "ZedObaia",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/ZedObaia/paseo-plugins",
+    "ref": "b7f9fd405e669fa89dd63c2fd2fa0bd3f20e466e",
+    "pluginPath": "plugins/linear"
+  },
+  "categories": [
+    "orchestration",
+    "workspaces",
+    "utils"
+  ]
+}
