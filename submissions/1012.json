@@ -1,0 +1,13 @@
+{
+  "issue": 1012,
+  "title": "Claude accounts",
+  "submittedBy": "lefos13",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/lefos13/paseo-plugin-claude-accounts"
+  },
+  "categories": [
+    "sidebar",
+    "utils"
+  ]
+}
