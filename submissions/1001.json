@@ -1,0 +1,14 @@
+{
+  "issue": 1001,
+  "title": "Model providers",
+  "submittedBy": "hulkzzhou1",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/hulkzzhou1/paseo-model-providers"
+  },
+  "categories": [
+    "providers",
+    "sidebar",
+    "utils"
+  ]
+}
