@@ -1,0 +1,20 @@
+{
+  "id": "sgoley/exporter",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/sgoley/paseo-exporter.git",
+    "commit": "334e2b29d777cffc461265a2473565b544b4bc3f"
+  },
+  "repository": {
+    "url": "https://github.com/sgoley/paseo-exporter",
+    "commit": "334e2b29d777cffc461265a2473565b544b4bc3f"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ],
+  "submittedAt": "2026-10-22T14:34:01Z",
+  "submittedBy": "sgoley",
+  "publishedAt": "2026-10-22T15:01:49Z",
+  "reviewedAt": "2026-10-22T15:01:49Z"
+}
