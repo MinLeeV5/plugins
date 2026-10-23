@@ -3,11 +3,12 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/MinLeeV5/paseo-help-answer-plugins.git",
-    "commit": "50a54699d7b7bf5b796fab68b6b0deea3faec7ad"
+    "commit": "4db481c46e3280bc2a3393b5a396307aea1a90e6",
+    "tag": "v0.1.1"
   },
   "repository": {
     "url": "https://github.com/MinLeeV5/paseo-help-answer-plugins",
-    "commit": "50a54699d7b7bf5b796fab68b6b0deea3faec7ad"
+    "commit": "4db481c46e3280bc2a3393b5a396307aea1a90e6"
   },
   "categories": [
     "extras",
@@ -15,13 +16,13 @@
   ],
   "submittedAt": "2026-10-23T02:45:08Z",
   "submittedBy": "MinLeeV5",
-  "publishedAt": "2026-10-23T03:01:23Z",
-  "reviewedAt": "2026-10-23T03:01:23Z",
+  "publishedAt": "2026-10-23T08:35:31Z",
+  "reviewedAt": "2026-10-23T08:35:31Z",
   "listing": {
     "name": "Reply suggestions",
     "description": "Suggests editable replies above the desktop composer using your recent conversation and configured model.",
     "media": [
-      "https://raw.githubusercontent.com/MinLeeV5/paseo-help-answer-plugins/50a54699d7b7bf5b796fab68b6b0deea3faec7ad/docs/desktop-preview.png"
+      "https://raw.githubusercontent.com/MinLeeV5/paseo-help-answer-plugins/4db481c46e3280bc2a3393b5a396307aea1a90e6/docs/desktop-preview.png"
     ],
     "translations": {
       "zh-CN": {
