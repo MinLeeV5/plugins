@@ -1,0 +1,13 @@
+{
+  "issue": 1043,
+  "title": "paseo-help-answer-plugins",
+  "submittedBy": "MinLeeV5",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/MinLeeV5/paseo-help-answer-plugins"
+  },
+  "categories": [
+    "extras",
+    "utils"
+  ]
+}
