@@ -1,0 +1,33 @@
+{
+  "id": "minleev5/help-answer-plugins",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/MinLeeV5/paseo-help-answer-plugins.git",
+    "commit": "50a54699d7b7bf5b796fab68b6b0deea3faec7ad"
+  },
+  "repository": {
+    "url": "https://github.com/MinLeeV5/paseo-help-answer-plugins",
+    "commit": "50a54699d7b7bf5b796fab68b6b0deea3faec7ad"
+  },
+  "categories": [
+    "extras",
+    "utils"
+  ],
+  "submittedAt": "2026-10-23T02:45:08Z",
+  "submittedBy": "MinLeeV5",
+  "publishedAt": "2026-10-23T03:01:23Z",
+  "reviewedAt": "2026-10-23T03:01:23Z",
+  "listing": {
+    "name": "Reply suggestions",
+    "description": "Suggests editable replies above the desktop composer using your recent conversation and configured model.",
+    "media": [
+      "https://raw.githubusercontent.com/MinLeeV5/paseo-help-answer-plugins/50a54699d7b7bf5b796fab68b6b0deea3faec7ad/docs/desktop-preview.png"
+    ],
+    "translations": {
+      "zh-CN": {
+        "name": "回复建议",
+        "description": "Agent 回复后显示短文案候选按钮，点击填入原生输入框，编辑后发送。"
+      }
+    }
+  }
+}
