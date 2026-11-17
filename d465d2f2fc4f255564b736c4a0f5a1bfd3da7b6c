@@ -1,0 +1,31 @@
+plugins/minleev5/paseo-gitlens.json
+  ce3a004268341054 6,10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.8.3",
+  "base_commit_sha": "d465d2f2fc4f255564b736c4a0f5a1bfd3da7b6c",
+  "prompts": {
+    "ce3a004268341054": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1e402-b0f7-76a3-9f6f-0cf451f4b2f3",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "李伟民 <liweimin@cvte.com>",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 2,
+      "accepted_lines": 2,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/3ee28544e96d43c58acbd2cc399f5b8da91b8fe1f335c0f70508f56af4f32a8c",
+      "token_usage": {
+        "input_tokens": 184859,
+        "output_tokens": 48380,
+        "cache_read_tokens": 10139520,
+        "cache_creation_tokens": null,
+        "total_cost": null
+      }
+    }
+  }
+}
