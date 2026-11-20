@@ -1,0 +1,31 @@
+plugins/minleev5/paseo-deck.json
+  3aa9cf30bd36d6d2 6-7,12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.8.3",
+  "base_commit_sha": "c279e8b54762a027403e036f260c2bde4f600ba1",
+  "prompts": {
+    "3aa9cf30bd36d6d2": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1e398-9058-7c42-9676-6668036bf031",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "李伟民 <liweimin@cvte.com>",
+      "messages": [],
+      "total_additions": 3,
+      "total_deletions": 2,
+      "accepted_lines": 3,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/6ecd77132cd91b9c8179ada3172c13806c811533c4794b4f42cf33890a265967",
+      "token_usage": {
+        "input_tokens": 220051,
+        "output_tokens": 72409,
+        "cache_read_tokens": 17065216,
+        "cache_creation_tokens": null,
+        "total_cost": null
+      }
+    }
+  }
+}
